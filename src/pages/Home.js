@@ -3,6 +3,7 @@ import "./Home.css";
 import video2 from '../assets/video2.mp4';
 import Cards from '../cards/cards';
 import { Videos } from '../cards/cards';
+import Bahar from "../assets/Bahar.jpg"
 
 
 function Home () {
@@ -18,13 +19,13 @@ function Home () {
 
 function MainSection(){
     return (
-      <div className='video-container'>
-          <video src={video2} autoPlay loop muted style={{width: '100%',height: '100vh'}} />
-          <h1>Armin productions</h1>
-          <p>2023</p>
-          &nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;
-  
+      <div className='head-text'>
+          <img className='img' src={Bahar} />
+          <div className='text-on-image'>
+              <h1 className='text'>Escape To Safety</h1>
+              <p className='bottom'>Exile Diaries</p>
+          </div>
+        
       </div>
     )
   }
