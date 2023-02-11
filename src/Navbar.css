@@ -19,8 +19,9 @@
   }
   
   .navbar-logo {
-    margin-left: -600px;
+    /* margin-left: -600px; */
     float: left;
+    align-self:auto;
     cursor: pointer;
     position:relative;
     text-decoration: none;
@@ -160,4 +161,20 @@
       color: #242424;
       transition: 250ms;
     }
+  }
+
+  .Logos{
+    /* margin-left: -600px; */
+    float: right;
+    cursor: pointer;
+    position:relative;
+    text-decoration: none;
+    display: flex;
+    scale: 11%;
+  }
+
+  .insta{
+    margin-top: 10px;
+    margin-left: 150px;
+    width: 650px;
   }
