@@ -4,6 +4,8 @@ import './Navbar.css';
 import Logo from "./assets/logo.png"
 import Spotify from "./assets/spotify.png"
 import Instagram from "./assets/insta.png"
+import Youtube from "./assets/youtube.png"
+import Tiktok from "./assets/tiktok.png"
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -29,20 +31,31 @@ function Navbar() {
     return (
         <nav className="navbar">
             <div className='navbar-container'>
-                <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                <div className= "flex-wrapper" onClick={handleClick}>
+                <Link to="/" className="logo" onClick={closeMobileMenu}>
                         <img src = {Logo} />
                         {/* <img src ={Spotify} /> */}
                 </Link>
-                <div className="Logos" onClick={handleClick}>
-                    <a href="https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x">
-                        <img  src = {Spotify} />  
-                    </a>
-                    <a href="https://www.instagram.com/escape_to_safety/">
-                        <img className='insta' src = {Instagram} />
-                    </a>
-
-                        {/* <img  src = {Spotify} /> */}
-                    {/* <i className={click ? "fas fa-times" : "fas fa-bars"}/> */}
+                    <div className="image-wrapper">
+                        <a href="https://open.spotify.com/show/2J80XnxhOKDKSKc2wCEeES">
+                            <img  src = {Spotify} class="scale-image"/>  
+                        </a>
+                    </div>
+                    <div class="image-wrapper">
+                        <a href="https://www.instagram.com/escape_to_safety/">
+                            <img src = {Instagram} class="scale-image"/>
+                        </a>
+                    </div>
+                    <div class="image-wrapperY">
+                        <a href="https://youtube.com/@escapetosafety">
+                            <img src = {Youtube} class="scale-image"/>
+                        </a>
+                    </div>
+                    <div class="image-wrapperY">
+                        <a href="https://www.tiktok.com/@escapetosafety?_t=8a6YYLDTCOz&_r=1">
+                            <img src = {Tiktok} class="scale-image"/>
+                        </a>
+                    </div>
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 </ul>

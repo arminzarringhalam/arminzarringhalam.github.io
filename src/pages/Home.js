@@ -22,8 +22,8 @@ function MainSection(){
       <div className='head-text'>
           <img className='img' src={Bahar} />
           <div className='text-on-image'>
-              <h1 className='text'>Escape To Safety</h1>
-              <p className='bottom'>Exile Diaries</p>
+              <h1 className='text'>ESCAPE TO SAFETY</h1>
+              <p className='bottom'>EXILE DIARIES</p>
           </div>
         
       </div>

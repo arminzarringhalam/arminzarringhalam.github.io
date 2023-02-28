@@ -47,7 +47,7 @@ function Videos  () {
             <iframe className='video_frame'
             width="853"
             height="480"
-            src={`https://www.youtube.com/embed/rEFc0AmmiGM`}
+            src={`https://open.spotify.com/embed/episode/2r86oznagCQUq3FvpjhMlz?utm_source=generator`}
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
