@@ -1,7 +1,7 @@
 {
   "name": "armin_vid",
   "version": "0.1.0",
-  "homepage": "https://arminzarringhalam.github.io",
+  "homepage": "https://arminzarringhalam/arminzarringhalam.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
