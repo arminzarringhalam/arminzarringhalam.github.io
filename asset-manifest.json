@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7c761ece.css",
+    "main.js": "/static/js/main.5b656f5f.js",
+    "static/js/787.188c79d0.chunk.js": "/static/js/787.188c79d0.chunk.js",
+    "static/media/video2.mp4": "/static/media/video2.29e443bffd0e0c88e2fb.mp4",
+    "static/media/logo.png": "/static/media/logo.0c58064db9c45ba7e938.png",
+    "static/media/Bahar.jpg": "/static/media/Bahar.cd2488dcdda7fb41f5b1.jpg",
+    "static/media/tiktok.png": "/static/media/tiktok.1ddc20d565e5cae69cec.png",
+    "static/media/youtube.png": "/static/media/youtube.ed97421af085ac0ec987.png",
+    "static/media/spotify.png": "/static/media/spotify.ba81d1b0586aedda754f.png",
+    "static/media/insta.png": "/static/media/insta.eda65c30d5e36fc88997.png",
+    "index.html": "/index.html",
+    "main.7c761ece.css.map": "/static/css/main.7c761ece.css.map",
+    "main.5b656f5f.js.map": "/static/js/main.5b656f5f.js.map",
+    "787.188c79d0.chunk.js.map": "/static/js/787.188c79d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c761ece.css",
+    "static/js/main.5b656f5f.js"
+  ]
+}
